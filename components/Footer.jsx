@@ -81,7 +81,7 @@ const Footer = () => {
                 </div>
               </div>
               <div className="text-white">
-                <h3 className="text-base leading-[21px]">Audience</h3>
+                <h3 className="text-base leading-[21px]">Formalities</h3>
                 <div className="flex flex-col pt-[15px]">
                   {[
                     "Students",
@@ -102,7 +102,7 @@ const Footer = () => {
                 </div>
               </div>
               <div className="text-white">
-                <h3 className="text-base leading-[21px]">Audience</h3>
+                <h3 className="text-base leading-[21px]">Services</h3>
                 <div className="flex flex-col pt-[15px]">
                   {[
                     "Students",
@@ -123,7 +123,7 @@ const Footer = () => {
                 </div>
               </div>
               <div className="text-white">
-                <h3 className="text-base leading-[21px]">Audience</h3>
+                <h3 className="text-base leading-[21px]">Organization</h3>
                 <div className="flex flex-col pt-[15px]">
                   {[
                     "Students",
