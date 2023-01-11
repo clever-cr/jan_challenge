@@ -42,14 +42,14 @@ const Footer = () => {
             <div className="flex gap-[21px] flex-wrap sm:px-[77px] justify-center items-center sm:gap-10">
               {icons.map((item, index) => {
                 return (
-                  <div key={index}>
+                  <div key={index} className="space-y-2">
                     <div className="border  border-white flex flex-col justify-center items-center pt-4- rounded-full h-[60px] w-[60px]  ">
                       <picture>
                         <img className="w-6 " src={item.img} alt="" />
                       </picture>
                     </div>
 
-                    <p className="text-base leading-[26px] text-white">
+                    <p className="text-base leading-[26px] text-white font-thin opacity-50">
                       {item.title}
                     </p>
                   </div>
