@@ -1,15 +1,15 @@
 import "../styles/globals.css";
 
-import { Roboto } from "@next/font/google";
+import { Open_Sans } from "@next/font/google";
 
-const roboto = Roboto({
-  weight: ["100", "300", "400", "500", "700", "900"],
-  variable: "--font-inter",
+const open = Open_Sans({
+  weight: ["300", "400", "500", "600", "700", "800"],
+  variable: "--font-open",
 });
 
 export default function MyApp({ Component, pageProps }) {
   return (
-    <main className={`${roboto.variable} font-sans`}>
+    <main className={`${open.variable} font-sans`}>
       <Component {...pageProps} />
     </main>
   );

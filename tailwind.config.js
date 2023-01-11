@@ -22,7 +22,7 @@ module.exports = {
         // => @media (max-width: 639px) { ... }
       },
       fontFamily: {
-        sans: ["var(--font-roboto)", ...fontFamily.sans],
+        sans: ["var(--font-open)", ...fontFamily.sans],
       },
       colors: {
         primary: "#004191",
