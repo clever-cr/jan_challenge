@@ -8,6 +8,7 @@ import Header from "../components/Header";
 import Information from "../components/Information";
 import NavBar from "../components/NavBar";
 import Students from "../components/Students";
+import White from "../components/White";
 
 const index = () => {
   return (
@@ -18,6 +19,7 @@ const index = () => {
       <Beg />
       <Cards />
       <Events />
+      <White />
       <Information />
       <Contact />
       <Footer />
