@@ -41,7 +41,7 @@ const Cards = () => {
                       <picture>
                         <img className="w-8" src={item.arrow} alt="" />
                       </picture>
-                      <p className="text-base leading-[19px] text-primary font-bold">
+                      <p className="text-base leading-[19px] text-primary font-bold hover:underline">
                         {item.desc}
                       </p>
                     </div>
@@ -49,7 +49,7 @@ const Cards = () => {
                       <picture>
                         <img className="w-8" src={item.arrow} alt="" />
                       </picture>
-                      <p className="text-base leading-[19px] text-primary font-bold">
+                      <p className="text-base leading-[19px] text-primary font-bold hover:underline">
                         {item.desc}
                       </p>
                     </div>
@@ -57,7 +57,7 @@ const Cards = () => {
                       <picture>
                         <img className="w-8" src={item.arrow} alt="" />
                       </picture>
-                      <p className="text-base leading-[19px] text-primary font-bold">
+                      <p className="text-base leading-[19px] text-primary font-bold hover:underline">
                         {item.desc}
                       </p>
                     </div>
@@ -65,7 +65,7 @@ const Cards = () => {
                       <picture>
                         <img className="w-8" src={item.arrow} alt="" />
                       </picture>
-                      <p className="text-base leading-[19px] text-primary font-bold">
+                      <p className="text-base leading-[19px] text-primary font-bold hover:underline">
                         {item.desc}
                       </p>
                     </div>
