@@ -12,20 +12,20 @@ const Cards = () => {
       img: "/trees.jpg",
       title: "Organizing your studies",
       arrow: "/right.svg",
-      desc: "C@MPUS - campus management and lectures",
+      desc: "Getting started",
     },
     {
       img: "/life.jpg",
       title: "University life",
       arrow: "/right.svg",
-      desc: "C@MPUS - campus management and lectures",
+      desc: "stuvus - the Student Union of the University of Stuttgart [de]",
     },
   ];
   return (
     <div className="px-[175px] sm:px-0">
       <div className="max-w-[1740px] mx-auto">
         <div className="px-[105px] bg-white sm:px-5 py-[60px] space-y-[60px]">
-          <div className="flex gap-x-9 pt-6 sm:space-y-[14px] sm:flex-col ">
+          <div className="grid grid-cols-3 gap-x-9 pt-6 sm:space-y-[14px] sm:grid-cols-1 ">
             {data.map((item, index) => {
               return (
                 <div key={index}>
