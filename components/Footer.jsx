@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 const Footer = () => {
   const icons = [
@@ -49,7 +49,7 @@ const Footer = () => {
                       </picture>
                     </div>
 
-                    <p className="text-base leading-[26px] text-white font-thin opacity-50">
+                    <p className="text-base leading-[26px] text-white font-thin ">
                       {item.title}
                     </p>
                   </div>
